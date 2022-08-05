@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #727778;
+}
+
+body{
+    background-image: url(./images/netflix.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+section{
+    margin: 1rem 2rem;
+    background-color: rgba(9, 9, 9, 0.4);
+    min-height: 100vh;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+h1, p{
+    text-align: center;
+}
+p{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+h1{
+    font-size: 2rem;
+}
+/* .name label, .age label, .email label, .textarea label{
+    display: block;
+} */
+
+label:not(.nope){
+    display: block;
+}
+.main{
+    /* position: absolute;
+    right: 50%; */
+    background-color: rgba(9, 9, 9, 0.7);
+    padding: 20px 30px;
+    border-radius: 15px;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.submit{
+    text-align: center;
+}
+
+div:not(.main){
+    margin-bottom: 40px;
+}
+input:not(.gender input, .check input, .submit2){
+    display: block;
+    height: 30px;
+    width: 100%;
+}
+
+
+textarea{
+        resize: none;
+        display: block;
+        width: 100%;
+        height: 80px;
+        padding: 10px;
+}
+
+select{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.submit2{
+    width: 40%;
+    height: 30px;
+    border-radius: 20px;
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+}
+
+label{
+    margin-bottom: 10px;
+}
+
+input[type="email"]{
+    padding: 10px;
+}
+
+input[type="number"]{
+    padding: 10px;
+    /* cursor: pointer; */
+}
+
+input[type="text"]{
+    padding: 10px;
+}
+select option{
+    color: #d5d5d5;
+}
+
+#opt1, #opt2, #opt3{
+    color: black;
+    cursor: pointer;
+}
+::placeholder{
+    color: #727778;
+}
+
+label, h1, p{
+    color: #fff;
+}
+
+span{
+    color: red;
+}
+
+.submit2:hover{
+    background-color: #8f9fa1;
+}
+
+input[type="checkbox"]{
+    cursor: pointer;
+}
+input[type="radio"]{
+    cursor: pointer;
+}
