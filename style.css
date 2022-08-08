@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Raleway&family=Roboto+Mono&family=Roboto:wght@300&family=Titan+One&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -30,9 +32,11 @@ h1, p{
 p{
     margin-bottom: 1rem;
     margin-top: 1rem;
+    font-size: 1.3rem;
 }
 h1{
-    font-size: 2rem;
+    font-size: 4.5rem;
+    font-family: 'Titan One', cursive;
 }
 /* .name label, .age label, .email label, .textarea label{
     display: block;
