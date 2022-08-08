@@ -132,7 +132,8 @@ span{
 }
 
 .submit2:hover{
-    background-color: #8f9fa1;
+    background-color: #fff;
+    color: #f00;
 }
 
 input[type="checkbox"]{
